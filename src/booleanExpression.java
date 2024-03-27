@@ -5,5 +5,7 @@ public class booleanExpression {
         if (b) s++;
         if (c) s++;
         if (d) s++;
+
+        return s == 2 ? true : false;
     }
 }
