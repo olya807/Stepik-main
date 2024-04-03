@@ -1,5 +1,5 @@
 public class booleanExpression {
-    public booleanExpression(boolean a, boolean b, boolean c, boolean d) {
+    public boolean booleanExpression(boolean a, boolean b, boolean c, boolean d) {
         int s = 0;
         if (a) s++;
         if (b) s++;
