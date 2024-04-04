@@ -2,7 +2,7 @@ import java.util.logging.*;
 
 public class configureLogging2 {
 
-        private static Logger l = Logger.getLogger(configureLogging2.class.getName());
+        private static final Logger l = Logger.getLogger(configureLogging2.class.getName());
         public static void main(String[] args) {
             l.setLevel(Level.ALL);
             ConsoleHandler c = new ConsoleHandler();
